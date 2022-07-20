@@ -1,0 +1,63 @@
+section.reviews .slider .slide img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+
+}
+
+section.reviews .slider .slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10rem;
+}
+
+.team h1 span{
+    color: var(--primary);
+}
+
+section.reviews .slider .slide p{
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+    margin-bottom: 1rem;
+}
+
+section.reviews .container span{
+    color: var(--primary);
+}
+
+section.reviews .slider .slide span{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--primary);
+}
+
+section.reviews .slider-dots .dots{
+    list-style-type: none;
+    display: flex!important;
+    justify-content: center;
+}
+
+section.reviews .slider-dots{
+    margin-top: 3rem;
+}
+
+section.reviews .slider-dots button{
+    font-size: 0;
+    width: 8px;
+    height: 5px;
+    margin-right: 0.3rem;
+    border: none;
+    outline: none;
+    background: var(--ternary);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+section.reviews .dots li.slick-active button{
+    background: var(--primary);
+    width: 20px;
+}
